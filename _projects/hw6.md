@@ -58,4 +58,10 @@ Interactivity:
 
 The chart is interactive, meaning users can select a region of states along the x-axis (using a brush tool). When a region is selected, the opacity of the bars in that area changes to 100%, while the rest of the bars fade to 70% opacity. This makes it easier to focus on a specific part of the data. The interactivity encourages users to explore the data and compare different states or groups of states, making the chart more engaging and helpful for analysis.
 
+<div class="left">
+{% include elements/button.html link="https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/bfro_reports_fall2022.csv" text="The Data" %}
+</div>
 
+<div class="right">
+{% include elements/button.html link="https://github.com/minglunchen/minglunchen.github.io/blob/main/python_notebooks/Workbook.ipynb" text="The Analysis" %}
+</div>
