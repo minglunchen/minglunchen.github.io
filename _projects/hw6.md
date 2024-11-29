@@ -11,7 +11,7 @@ custom_js:
 ---
 
 
-# Example including vega-lite
+# Altair visualization
 
 <h2>Plot 1</h2>
 <iframe src="../assets/chart1.html" width="100%" height="600px"></iframe>
@@ -23,28 +23,8 @@ Example comes from this [great blog post right here](https://blog.4dcu.be/progra
 
 We can use a vegachart HTML tag like so:
 
-```
-<vegachart schema-url="{{ site.baseurl }}/assets/json/cars.json" style="width: 100%"></vegachart>
-```
-
-<vegachart schema-url="{{ site.baseurl }}/assets/json/cars.json" style="width: 100%"></vegachart>
-
 In theory, you can also use [Jekyll hooks](https://jekyllrb.com/docs/plugins/hooks/) to do it, but I haven't figured out a way that looks nice yet.
 
-
-## Search The Data & Methods
-
-Below is where we can put some links to both the data and the analysis code as buttons:
-
-```
-<div class="left">
-{% include elements/button.html link="https://github.com/vega/vega/blob/main/docs/data/cars.json" text="The Data" %}
-</div>
-
-<div class="right">
-{% include elements/button.html link="https://blog.4dcu.be/programming/2021/05/03/Interactive-Visualizations.html" text="The Analysis" %}
-</div>
-```
 
 <!-- these are written in a combo of html and liquid --> 
 
