@@ -16,6 +16,7 @@ custom_js:
 <h2>Viz 1: State Count</h2>
 <iframe src="../assets/chart1.html" width="100%" height="400px"></iframe>
 
+
 This chart shows how many times each state appears in the dataset. The x-axis represents the states, and the y-axis shows how many records exist for each state. Each bar is colored differently based on the state it represents, making it easy to tell the states apart at a glance.
 
 x-axis / y-axis:
@@ -33,6 +34,7 @@ The main data transformation used in this chart is the count() function, which g
 
 <h2>Viz 2: Average Precipitation Probability</h2>
 <iframe src="../assets/chart2.html" width="100%" height="400px"></iframe>
+
 
 This visualization shows the relationship between states and their average probability of precipitation. The chart uses bars to represent the average precipitation probability for each state. The height of each bar reflects the average precipitation probability for that state. There's also a line that shows the overall average precipitation probability across all states. The chart is interactive, allowing users to select specific regions (states) along the x-axis using a brush tool. When a region is selected, the bars in that area become fully visible, while the others fade out.
 
