@@ -1,8 +1,8 @@
 ---
-name: Vega Lite / Altair Project
-tools: [Python, HTML, vega-lite]
-image: assets/pngs/cars.png
-description: This is a "showcase" project that uses vega-lite for interactive viz!
+name: Altair Project
+tools: [Python, HTML, Altair]
+image: assets/pngs/altair1.png
+description: This is a project that uses altair for interactive viz!
 custom_js:
   - vega.min
   - vega-lite.min
