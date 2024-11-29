@@ -63,5 +63,5 @@ The chart is interactive, meaning users can select a region of states along the 
 </div>
 
 <div class="right">
-{% include elements/button.html link="https://github.com/minglunchen/minglunchen.github.io/blob/main/python_notebooks/Workbook.ipynb" text="The Analysis" %}
+{% include elements/button.html link="https://github.com/minglunchen/minglunchen.github.io/blob/main/python_notebooks/Workbook.ipynb" text="The Python notebook" %}
 </div>
